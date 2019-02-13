@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/AdventureWorksApi/bin/Debug/netcoreapp2.1
+/AdventureWorksApi/obj
+/AdventureWorksApi/bin/Release/netcoreapp2.1
