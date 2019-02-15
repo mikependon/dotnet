@@ -11,7 +11,7 @@ namespace AdventureWorksApi.Repositories
     public class CustomerRepository : BaseRepository<Customer, SqlConnection>
     {
         public CustomerRepository(IOptions<ApplicationConfig> appConfig)
-            : base(appConfig.Value.ConnectionString)
+            : base(appConfig.Value.DatabaseConnectionString)
         {
         }
 

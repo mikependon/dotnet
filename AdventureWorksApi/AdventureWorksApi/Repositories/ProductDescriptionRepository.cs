@@ -9,7 +9,7 @@ namespace AdventureWorksApi.Repositories
     public class ProductDescriptionRepository : BaseRepository<ProductDescription, SqlConnection>
     {
         public ProductDescriptionRepository(IOptions<ApplicationConfig> appConfig)
-            : base(appConfig.Value.ConnectionString)
+            : base(appConfig.Value.DatabaseConnectionString)
         {
         }
     }

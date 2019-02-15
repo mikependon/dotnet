@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Text;
 
 namespace AdventureWorksApi.Extensions
 {
@@ -25,6 +26,24 @@ namespace AdventureWorksApi.Extensions
                 }
             });
             return instance;
+        }
+
+        public static string Stringify(this object obj)
+        {
+            if (obj == null)
+            {
+                return null;
+            }
+            var builder = new StringBuilder();
+            obj.GetType().GetProperties().ToList().ForEach(property =>
+            {
+                if (builder.Length > 0)
+                {
+                    builder.Append(",");
+                }
+                builder.Append($"\"{property.Name}\":\"{property.GetValue(obj)?.ToString()}\"");
+            });
+            return $"{{{builder.ToString()}}}";
         }
     }
 }

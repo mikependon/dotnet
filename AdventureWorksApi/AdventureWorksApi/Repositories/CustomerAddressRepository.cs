@@ -10,7 +10,7 @@ namespace AdventureWorksApi.Repositories
     public class CustomerAddressRepository : BaseRepository<CustomerAddress, SqlConnection>
     {
         public CustomerAddressRepository(IOptions<ApplicationConfig> appConfig)
-            : base(appConfig.Value.ConnectionString)
+            : base(appConfig.Value.DatabaseConnectionString)
         {
         }
     }

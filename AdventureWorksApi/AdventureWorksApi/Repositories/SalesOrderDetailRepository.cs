@@ -9,7 +9,7 @@ namespace AdventureWorksApi.Repositories
     public class SalesOrderDetailRepository : BaseRepository<SalesOrderDetail, SqlConnection>
     {
         public SalesOrderDetailRepository(IOptions<ApplicationConfig> appConfig)
-            : base(appConfig.Value.ConnectionString)
+            : base(appConfig.Value.DatabaseConnectionString)
         {
         }
     }
