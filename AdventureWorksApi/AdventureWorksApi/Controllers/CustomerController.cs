@@ -33,5 +33,11 @@ namespace AdventureWorksApi.Controllers
         {
             return m_customerManager.GetBatchAfter(lastCustomerId, numberOfRows)?.ToList();
         }
+
+        [HttpGet("send/{id}")]
+        public ActionResult<WebModels.Customer> Send(int id)
+        {
+            return m_customerManager.Send(id);
+        }
     }
 }

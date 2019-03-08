@@ -1081,14 +1081,14 @@
     "Microsoft.Azure.Amqp/2.3.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5sIUlSS6/6thqEJyF1bP6GpVUeJRZjowxK3FnHz4kgDQQ91rMqeKmMQqu9gj817kcz5MIbHeFyXVJexbEkiS6g==",
+      "sha512": "sha512-xLiGDzxqWQyxzr1novHrtlNXljHTDJFEzitKO60ZEvo5xEMz4p+soZBWSVbzMmp6XA31TZSFJXdNmmh/J9//fA==",
       "path": "microsoft.azure.amqp/2.3.7",
       "hashPath": "microsoft.azure.amqp.2.3.7.nupkg.sha512"
     },
     "Microsoft.Azure.ServiceBus/3.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Sv6ZfMwHJeIVHgkW8mkbCVBuEhTZTDxWYKtKqLrFcmKsO7i5+ElVAN97J2Dsp4HCvWFWGBNvisYPnNJN2XNzfg==",
+      "sha512": "sha512-s3bNR4FciRnPUiMJUHnnnxN/AuyqWzn/+tRZVOWHhun6vUbd+m3tehXY9HbCLU1gfl7hlrKPUhngBBGuMRClAw==",
       "path": "microsoft.azure.servicebus/3.3.0",
       "hashPath": "microsoft.azure.servicebus.3.3.0.nupkg.sha512"
     },
@@ -1109,21 +1109,21 @@
     "Microsoft.IdentityModel.Clients.ActiveDirectory/3.17.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zvDoWJlrKg1TQeJScq+5znAZtduyJHlT7M9gEquUjm2PQCIR4C5PqJ0E8xYQsV3eF4bY8cW54uyr0FyhiN0MtQ==",
+      "sha512": "sha512-aJinZQ8+48DSdN521xo1jRVXWmyoJIggq6mygBis/QAqiWwe/nZ4U21JfsYJMGdyu0NpGCDuyKUQOCod1EoA0A==",
       "path": "microsoft.identitymodel.clients.activedirectory/3.17.2",
       "hashPath": "microsoft.identitymodel.clients.activedirectory.3.17.2.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Logging/5.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DFulMNRs/yRuK9l6Yh5X+UabwP2YmcdTF6Fxwmn8eyp+1Whf+g7JHWb513U6+RcILcerzN/M13U0+3aYbx+lzA==",
+      "sha512": "sha512-rBXNKl47ExFyZGNCOU4CimiiC+FenfmIwovu0h/0MdgEvSONO0J14Pidjj7PfMoMcvJVPIbP5Z/lAQsjgagJNw==",
       "path": "microsoft.identitymodel.logging/5.2.2",
       "hashPath": "microsoft.identitymodel.logging.5.2.2.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Tokens/5.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mIycg5FPACWecK7P31xzAp7G8VETH0xP27So1MEH/L/COQu412H9hxQVgURUt9Y07A5IUq910bYxs1hHGi6YtQ==",
+      "sha512": "sha512-A8UR+TQEG28zft8TGXYdvbHAwvK31dVT76isBa7jwD190TsMMaL0ttivABKH8upabvezHQrAmmQc6bGwQGJeAw==",
       "path": "microsoft.identitymodel.tokens/5.2.2",
       "hashPath": "microsoft.identitymodel.tokens.5.2.2.nupkg.sha512"
     },
@@ -1144,7 +1144,7 @@
     "Newtonsoft.Json/10.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
+      "sha512": "sha512-MOUhQfeI43upq9QiEv+7YYTDQPtEZEj9xB50MgplO1XF/aumP0f+TCYIHpZEmfsiahJJaXt/gdRFYLFEoF2VyQ==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
     },
@@ -1368,7 +1368,7 @@
     "System.IdentityModel.Tokens.Jwt/5.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0PHB4BBVT1XVMNSCYK00d+IIghqzGHXUCcp3BEXxnnpqTMdmF371dMjuFyAK312UpZ5lhOuO26sOBr27+RcV6Q==",
+      "sha512": "sha512-stcPUDksxucDlowf2Q3DJiSbMfLP2jCgEdJ+44XD11YGjdE1uO8fRd4cAbS4Rf/B9FOZu9k66YxgicNTN3f92Q==",
       "path": "system.identitymodel.tokens.jwt/5.2.2",
       "hashPath": "system.identitymodel.tokens.jwt.5.2.2.nupkg.sha512"
     },
@@ -1424,14 +1424,14 @@
     "System.Net.WebSockets/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Rv3mtIEw6kmfkiQuNX9amU27kPbUacMAQ0rKEcYbu1LkTMNK1PDLi/w6iHi0YH8woGpIhiy5BU4hoVoqyw+E8g==",
+      "sha512": "sha512-2KJo8hir6Edi9jnMDAMhiJoI691xRBmKcbNpwjrvpIMOCTYOtBpSsSEGBxBDV7PKbasJNaFp1+PZz1D7xS41Hg==",
       "path": "system.net.websockets/4.0.0",
       "hashPath": "system.net.websockets.4.0.0.nupkg.sha512"
     },
     "System.Net.WebSockets.Client/4.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-p5MXWWWeMzst81B1beckoyyjWH+Zm9xbYTS0k0nyrRFmukEqpbJw9aSVZmkOaDdWlvsWFDoyoAONJoZHLJxh+Q==",
+      "sha512": "sha512-NUCcDroX4lCQXgOrzlwIZ1u9YJ0krfyF0wk0ONnyLUmcQoEiYV2/OfUPRqUwQBbpH1BlGApkLgoQUwMqb5+c1g==",
       "path": "system.net.websockets.client/4.0.2",
       "hashPath": "system.net.websockets.client.4.0.2.nupkg.sha512"
     },

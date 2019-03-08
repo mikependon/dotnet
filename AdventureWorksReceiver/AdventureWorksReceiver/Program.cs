@@ -8,7 +8,7 @@ namespace AdventureWorksReceiver
 {
     class Program
     {
-        private static string m_ConnectionString = "Endpoint=sb://mikependon-adventureworksapi.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WO37aKBo+8BriVU0oWC5t7P9ixoHeyD26xJvw0hHRMk=";
+        private static string m_ConnectionString = "Endpoint=sb://adventureworksapi.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=mGAQDWIFFt8MyAswn6bQHiGy/NF9EBmOmEidN1Zexsg=";
         private static string m_queueName = "Send";
         private static IQueueClient m_queueClient;
 
