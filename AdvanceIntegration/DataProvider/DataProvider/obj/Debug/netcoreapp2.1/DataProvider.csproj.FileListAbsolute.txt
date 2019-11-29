@@ -1,0 +1,11 @@
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.deps.json
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.runtimeconfig.json
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.runtimeconfig.dev.json
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.dll
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.pdb
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.csprojAssemblyReference.cache
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.csproj.CoreCompileInputs.cache
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfoInputs.cache
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfo.cs
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.dll
+C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.pdb

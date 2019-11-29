@@ -1,0 +1,11 @@
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\bin\Debug\netcoreapp2.1\AlarmDataProvider.deps.json
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\bin\Debug\netcoreapp2.1\AlarmDataProvider.runtimeconfig.json
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\bin\Debug\netcoreapp2.1\AlarmDataProvider.runtimeconfig.dev.json
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\bin\Debug\netcoreapp2.1\AlarmDataProvider.dll
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\obj\Debug\netcoreapp2.1\AlarmDataProvider.csprojAssemblyReference.cache
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\obj\Debug\netcoreapp2.1\AlarmDataProvider.csproj.CoreCompileInputs.cache
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\obj\Debug\netcoreapp2.1\AlarmDataProvider.AssemblyInfoInputs.cache
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\obj\Debug\netcoreapp2.1\AlarmDataProvider.AssemblyInfo.cs
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\bin\Debug\netcoreapp2.1\AlarmDataProvider.pdb
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\obj\Debug\netcoreapp2.1\AlarmDataProvider.dll
+C:\src\DSS\WFSDH\POC\Azure\FastLog\AlarmDataProvider\AlarmDataProvider\obj\Debug\netcoreapp2.1\AlarmDataProvider.pdb
