@@ -14,7 +14,6 @@ C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\Dat
 C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.runtimeconfig.dev.json
 C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.dll
 C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.pdb
-C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.csprojAssemblyReference.cache
 C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.csproj.CoreCompileInputs.cache
 C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfoInputs.cache
 C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfo.cs
