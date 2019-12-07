@@ -9,3 +9,14 @@ C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreap
 C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfo.cs
 C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.dll
 C:\src\DSS\WFSDH\POC\Azure\FastLog\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.pdb
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.deps.json
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.runtimeconfig.json
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.runtimeconfig.dev.json
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.dll
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\bin\Debug\netcoreapp2.1\DataProvider.pdb
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.csprojAssemblyReference.cache
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.csproj.CoreCompileInputs.cache
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfoInputs.cache
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.AssemblyInfo.cs
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.dll
+C:\Users\MichaelP\Source\Repos\GitHub\dotnet\AdvanceIntegration\DataProvider\DataProvider\obj\Debug\netcoreapp2.1\DataProvider.pdb
