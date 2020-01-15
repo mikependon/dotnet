@@ -18,3 +18,14 @@ C:\TEST\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreap
 C:\TEST\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.AssemblyInfo.cs
 C:\TEST\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.dll
 C:\TEST\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.pdb
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\bin\Debug\netcoreapp2.1\AdventureWorksReceiver.deps.json
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\bin\Debug\netcoreapp2.1\AdventureWorksReceiver.runtimeconfig.json
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\bin\Debug\netcoreapp2.1\AdventureWorksReceiver.runtimeconfig.dev.json
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\bin\Debug\netcoreapp2.1\AdventureWorksReceiver.dll
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\bin\Debug\netcoreapp2.1\AdventureWorksReceiver.pdb
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.csprojAssemblyReference.cache
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.csproj.CoreCompileInputs.cache
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.AssemblyInfoInputs.cache
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.AssemblyInfo.cs
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.dll
+C:\src\GitHub\mikependon\dotnet\AdventureWorksReceiver\AdventureWorksReceiver\obj\Debug\netcoreapp2.1\AdventureWorksReceiver.pdb

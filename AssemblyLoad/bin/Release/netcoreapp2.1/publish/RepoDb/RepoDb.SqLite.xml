@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RepoDb.SqLite</name>
+    </assembly>
+    <members>
+        <member name="T:RepoDb.DbHelpers.SqLiteDbHelper">
+            <summary>
+            A helper class for database specially for the direct access. This class is only meant for SqLite.
+            </summary>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:RepoDb.DbHelpers.SqLiteDbHelper"/> class.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbHelpers.SqLiteDbHelper.DbTypeResolver">
+            <summary>
+            Gets the type resolver used by this <see cref="T:RepoDb.DbHelpers.SqLiteDbHelper"/> instance.
+            </summary>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetCommandText(System.String)">
+            <summary>
+            Returns the command text that is being used to extract schema definitions.
+            </summary>
+            <param name="tableName">The name of the target table.</param>
+            <returns>The command text.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.ReaderToDbField(System.Data.IDataReader,System.String)">
+            <summary>
+            Converts the <see cref="T:System.Data.IDataReader"/> object into <see cref="T:RepoDb.DbField"/> object.
+            </summary>
+            <param name="reader">The instance of <see cref="T:System.Data.IDataReader"/> object.</param>
+            <param name="identityFieldName">The name of the identity column.</param>
+            <returns>The instance of converted <see cref="T:RepoDb.DbField"/> object.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetSchema(System.String)">
+            <summary>
+            Gets the actual schema of the table from the database.
+            </summary>
+            <param name="tableName">The passed table name.</param>
+            <returns>The actual table schema.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetTableName(System.String)">
+            <summary>
+            Gets the actual name of the table from the database.
+            </summary>
+            <param name="tableName">The passed table name.</param>
+            <returns>The actual table name.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetIdentityFieldName``1(``0,System.String,System.Data.IDbTransaction)">
+            <summary>
+            Gets the list of <see cref="T:RepoDb.DbField"/> of the table.
+            </summary>
+            <typeparam name="TDbConnection">The type of <see cref="T:System.Data.Common.DbConnection"/> object.</typeparam>
+            <param name="connection">The instance of the connection object.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="transaction">The transaction object that is currently in used.</param>
+            <returns>A list of <see cref="T:RepoDb.DbField"/> of the target table.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.ParseTableFieldsFromSql(System.String)">
+            <summary>
+            Parses the table sql and return the list of the fields.
+            </summary>
+            <param name="sql">The sql to be parsed.</param>
+            <returns>The list of the fields.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetFields(System.Data.IDbConnection,System.String,System.Data.IDbTransaction)">
+            <summary>
+            Gets the list of <see cref="T:RepoDb.DbField"/> of the table.
+            </summary>
+            <param name="connection">The instance of the connection object.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="transaction">The transaction object that is currently in used.</param>
+            <returns>A list of <see cref="T:RepoDb.DbField"/> of the target table.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetFieldsAsync(System.Data.IDbConnection,System.String,System.Data.IDbTransaction)">
+            <summary>
+            Gets the list of <see cref="T:RepoDb.DbField"/> of the table in an asychronous way.
+            </summary>
+            <param name="connection">The instance of the connection object.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="transaction">The transaction object that is currently in used.</param>
+            <returns>A list of <see cref="T:RepoDb.DbField"/> of the target table.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetScopeIdentity(System.Data.IDbConnection,System.Data.IDbTransaction)">
+            <summary>
+            Gets the newly generated identity from the database.
+            </summary>
+            <param name="connection">The instance of the connection object.</param>
+            <param name="transaction">The transaction object that is currently in used.</param>
+            <returns>The newly generated identity from the database.</returns>
+        </member>
+        <member name="M:RepoDb.DbHelpers.SqLiteDbHelper.GetScopeIdentityAsync(System.Data.IDbConnection,System.Data.IDbTransaction)">
+            <summary>
+            Gets the newly generated identity from the database in an asychronous way.
+            </summary>
+            <param name="connection">The instance of the connection object.</param>
+            <param name="transaction">The transaction object that is currently in used.</param>
+            <returns>The newly generated identity from the database.</returns>
+        </member>
+        <member name="T:RepoDb.DbSettings.SqLiteDbSetting">
+            <summary>
+            A setting class used for <see cref="T:System.Data.SQLite.SQLiteConnection"/> data provider.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.AreTableHintsSupported">
+            <summary>
+            Gets the value that indicates whether the table hints are supported.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.ClosingQuote">
+            <summary>
+            Gets the character (or string) used for closing quote.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.DefaultAverageableType">
+            <summary>
+            Gets the default averageable .NET CLR types for the database.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.DefaultSchema">
+            <summary>
+            Gets the default schema of the database.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.IsDbParameterDirectionSettingSupported">
+            <summary>
+            Gets a value that indicates whether setting the value of <see cref="P:System.Data.Common.DbParameter.Direction"/> object is supported.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.IsDisposeDbCommandAfterExecuteReader">
+            <summary>
+            Gets a value that indicates whether the <see cref="T:System.Data.Common.DbCommand"/> object must be disposed after calling the <see cref="M:System.Data.Common.DbCommand.ExecuteReader"/> method.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.IsMultipleStatementExecutionSupported">
+            <summary>
+            Gets a value whether the multiple statement execution is supported.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.IsUseUpsertForMergeOperation">
+            <summary>
+            Gets a value that indicates whether the Insert/Update operation will be used for Merge operation.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.OpeningQuote">
+            <summary>
+            Gets the character (or string) used for opening quote.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.ParameterPrefix">
+            <summary>
+            Gets the character (or string) used for the database command parameter quoting.
+            </summary>
+        </member>
+        <member name="P:RepoDb.DbSettings.SqLiteDbSetting.SchemaSeparator">
+            <summary>
+            Gets the character (or string) used for separating the schema.
+            </summary>
+        </member>
+        <member name="M:RepoDb.DbSettings.SqLiteDbSetting.GetHashCode">
+            <summary>
+            Returns the hashcode for this <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/>.
+            </summary>
+            <returns>The hashcode value.</returns>
+        </member>
+        <member name="M:RepoDb.DbSettings.SqLiteDbSetting.Equals(System.Object)">
+            <summary>
+            Compares the <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> object equality against the given target object.
+            </summary>
+            <param name="obj">The object to be compared to the current object.</param>
+            <returns>True if the instances are equals.</returns>
+        </member>
+        <member name="M:RepoDb.DbSettings.SqLiteDbSetting.Equals(RepoDb.DbSettings.SqLiteDbSetting)">
+            <summary>
+            Compares the <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> object equality against the given target object.
+            </summary>
+            <param name="other">The object to be compared to the current object.</param>
+            <returns>True if the instances are equal.</returns>
+        </member>
+        <member name="M:RepoDb.DbSettings.SqLiteDbSetting.op_Equality(RepoDb.DbSettings.SqLiteDbSetting,RepoDb.DbSettings.SqLiteDbSetting)">
+            <summary>
+            Compares the equality of the two <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> objects.
+            </summary>
+            <param name="objA">The first <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> object.</param>
+            <param name="objB">The second <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> object.</param>
+            <returns>True if the instances are equal.</returns>
+        </member>
+        <member name="M:RepoDb.DbSettings.SqLiteDbSetting.op_Inequality(RepoDb.DbSettings.SqLiteDbSetting,RepoDb.DbSettings.SqLiteDbSetting)">
+            <summary>
+            Compares the inequality of the two <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> objects.
+            </summary>
+            <param name="objA">The first <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> object.</param>
+            <param name="objB">The second <see cref="T:RepoDb.DbSettings.SqLiteDbSetting"/> object.</param>
+            <returns>True if the instances are not equal.</returns>
+        </member>
+        <member name="T:RepoDb.Resolvers.DbTypeToSqLiteStringNameResolver">
+            <summary>
+            A class used to resolve the <see cref="T:System.Data.DbType"/> into its equivalent database string name.
+            </summary>
+        </member>
+        <member name="M:RepoDb.Resolvers.DbTypeToSqLiteStringNameResolver.Resolve(System.Data.DbType)">
+            <summary>
+            Returns the equivalent <see cref="T:System.Data.DbType"/> of the .NET CLR Types.
+            </summary>
+            <param name="dbType">The type of the database.</param>
+            <returns>The equivalent string name.</returns>
+        </member>
+        <member name="T:RepoDb.Resolvers.SqLiteConvertFieldResolver">
+            <summary>
+            A class used to resolve the <see cref="T:RepoDb.Field"/> name conversion for SqLite.
+            </summary>
+        </member>
+        <member name="P:RepoDb.Resolvers.SqLiteConvertFieldResolver.DbTypeResolver">
+            <summary>
+            Gets the resolver that is being used to resolve the .NET CLR Type and <see cref="T:System.Data.DbType"/>.
+            </summary>
+        </member>
+        <member name="P:RepoDb.Resolvers.SqLiteConvertFieldResolver.StringNameResolver">
+            <summary>
+            Gets the resolver that is being used to resolve the <see cref="T:System.Data.DbType"/> and the database type string name.
+            </summary>
+        </member>
+        <member name="M:RepoDb.Resolvers.SqLiteConvertFieldResolver.Resolve(RepoDb.Field,RepoDb.Interfaces.IDbSetting)">
+            <summary>
+            Returns the converted name of the <see cref="T:RepoDb.Field"/> object for SQL Server.
+            </summary>
+            <param name="field">The instance of the <see cref="T:RepoDb.Field"/> to be converted..</param>
+            <param name="dbSetting">The current in used <see cref="T:RepoDb.Interfaces.IDbSetting"/> object.</param>
+            <returns>The converted name of the <see cref="T:RepoDb.Field"/> object for SQL Server.</returns>
+        </member>
+        <member name="T:RepoDb.Resolvers.SqLiteDbTypeNameToClientTypeResolver">
+            <summary>
+            A class used to resolve the SqLite Database Types into its equivalent .NET CLR Types.
+            </summary>
+        </member>
+        <member name="M:RepoDb.Resolvers.SqLiteDbTypeNameToClientTypeResolver.Resolve(System.String)">
+            <summary>
+            Returns the equivalent .NET CLR Types of the Database Type.
+            </summary>
+            <param name="dbTypeName">The name of the database type.</param>
+            <returns>The equivalent .NET CLR type.</returns>
+        </member>
+        <member name="T:RepoDb.SqLiteBootstrap">
+            <summary>
+            A class used to initialize necessary objects that is connected to <see cref="T:System.Data.SQLite.SQLiteConnection"/> object.
+            </summary>
+        </member>
+        <member name="P:RepoDb.SqLiteBootstrap.Initialized">
+            <summary>
+            Gets the value indicating whether the initialization is completed.
+            </summary>
+        </member>
+        <member name="M:RepoDb.SqLiteBootstrap.Initialize">
+            <summary>
+            Initializes all necessary settings for SqLite.
+            </summary>
+        </member>
+        <member name="T:RepoDb.StatementBuilders.SqLiteStatementBuilder">
+            <summary>
+            A class used to build a SQL Statement for SqLite.
+            </summary>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:RepoDb.StatementBuilders.SqLiteStatementBuilder"/> object.
+            </summary>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateBatchQuery(RepoDb.QueryBuilder,System.String,System.Collections.Generic.IEnumerable{RepoDb.Field},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{RepoDb.OrderField},RepoDb.QueryGroup,System.String)">
+            <summary>
+            Creates a SQL Statement for batch query operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="fields">The list of fields to be queried.</param>
+            <param name="page">The page of the batch.</param>
+            <param name="rowsPerBatch">The number of rows per batch.</param>
+            <param name="orderBy">The list of fields for ordering.</param>
+            <param name="where">The query expression.</param>
+            <param name="hints">The table hints to be used. See <see cref="T:RepoDb.SqlServerTableHints"/> class.</param>
+            <returns>A sql statement for batch query operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateExists(RepoDb.QueryBuilder,System.String,RepoDb.QueryGroup,System.String)">
+            <summary>
+            Creates a SQL Statement for exists operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="where">The query expression.</param>
+            <param name="hints">The table hints to be used. See <see cref="T:RepoDb.SqlServerTableHints"/> class.</param>
+            <returns>A sql statement for exists operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateInsert(RepoDb.QueryBuilder,System.String,System.Collections.Generic.IEnumerable{RepoDb.Field},RepoDb.DbField,RepoDb.DbField)">
+            <summary>
+            Creates a SQL Statement for insert operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="fields">The list of fields to be inserted.</param>
+            <param name="primaryField">The primary field from the database.</param>
+            <param name="identityField">The identity field from the database.</param>
+            <returns>A sql statement for insert operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateInsertAll(RepoDb.QueryBuilder,System.String,System.Collections.Generic.IEnumerable{RepoDb.Field},System.Int32,RepoDb.DbField,RepoDb.DbField)">
+            <summary>
+            Creates a SQL Statement for insert-all operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="fields">The list of fields to be inserted.</param>
+            <param name="batchSize">The batch size of the operation.</param>
+            <param name="primaryField">The primary field from the database.</param>
+            <param name="identityField">The identity field from the database.</param>
+            <returns>A sql statement for insert operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateMerge(RepoDb.QueryBuilder,System.String,System.Collections.Generic.IEnumerable{RepoDb.Field},System.Collections.Generic.IEnumerable{RepoDb.Field},RepoDb.DbField,RepoDb.DbField)">
+            <summary>
+            Creates a SQL Statement for merge operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="fields">The list of fields to be merged.</param>
+            <param name="qualifiers">The list of the qualifier <see cref="T:RepoDb.Field"/> objects.</param>
+            <param name="primaryField">The primary field from the database.</param>
+            <param name="identityField">The identity field from the database.</param>
+            <returns>A sql statement for merge operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateMergeAll(RepoDb.QueryBuilder,System.String,System.Collections.Generic.IEnumerable{RepoDb.Field},System.Collections.Generic.IEnumerable{RepoDb.Field},System.Int32,RepoDb.DbField,RepoDb.DbField)">
+            <summary>
+            Creates a SQL Statement for merge-all operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="fields">The list of fields to be merged.</param>
+            <param name="qualifiers">The list of the qualifier <see cref="T:RepoDb.Field"/> objects.</param>
+            <param name="batchSize">The batch size of the operation.</param>
+            <param name="primaryField">The primary field from the database.</param>
+            <param name="identityField">The identity field from the database.</param>
+            <returns>A sql statement for merge operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateQuery(RepoDb.QueryBuilder,System.String,System.Collections.Generic.IEnumerable{RepoDb.Field},RepoDb.QueryGroup,System.Collections.Generic.IEnumerable{RepoDb.OrderField},System.Nullable{System.Int32},System.String)">
+            <summary>
+            Creates a SQL Statement for query operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <param name="fields">The list of fields.</param>
+            <param name="where">The query expression.</param>
+            <param name="orderBy">The list of fields for ordering.</param>
+            <param name="top">The number of rows to be returned.</param>
+            <param name="hints">The table hints to be used. See <see cref="T:RepoDb.SqlServerTableHints"/> class.</param>
+            <returns>A sql statement for query operation.</returns>
+        </member>
+        <member name="M:RepoDb.StatementBuilders.SqLiteStatementBuilder.CreateTruncate(RepoDb.QueryBuilder,System.String)">
+            <summary>
+            Creates a SQL Statement for truncate operation.
+            </summary>
+            <param name="queryBuilder">The query builder to be used.</param>
+            <param name="tableName">The name of the target table.</param>
+            <returns>A sql statement for truncate operation.</returns>
+        </member>
+    </members>
+</doc>

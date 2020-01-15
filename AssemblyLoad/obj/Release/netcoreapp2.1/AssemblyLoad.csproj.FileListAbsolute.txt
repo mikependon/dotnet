@@ -1,0 +1,15 @@
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\RepoDb\RepoDb.dll
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\RepoDb\RepoDb.SqLite.dll
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\RepoDb\RepoDb.SqLite.xml
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\RepoDb\RepoDb.xml
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\AssemblyLoad.deps.json
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\AssemblyLoad.runtimeconfig.json
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\AssemblyLoad.runtimeconfig.dev.json
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\AssemblyLoad.dll
+C:\Users\MIPEN\source\repos\AssemblyLoad\bin\Release\netcoreapp2.1\AssemblyLoad.pdb
+C:\Users\MIPEN\source\repos\AssemblyLoad\obj\Release\netcoreapp2.1\AssemblyLoad.csprojAssemblyReference.cache
+C:\Users\MIPEN\source\repos\AssemblyLoad\obj\Release\netcoreapp2.1\AssemblyLoad.csproj.CoreCompileInputs.cache
+C:\Users\MIPEN\source\repos\AssemblyLoad\obj\Release\netcoreapp2.1\AssemblyLoad.AssemblyInfoInputs.cache
+C:\Users\MIPEN\source\repos\AssemblyLoad\obj\Release\netcoreapp2.1\AssemblyLoad.AssemblyInfo.cs
+C:\Users\MIPEN\source\repos\AssemblyLoad\obj\Release\netcoreapp2.1\AssemblyLoad.dll
+C:\Users\MIPEN\source\repos\AssemblyLoad\obj\Release\netcoreapp2.1\AssemblyLoad.pdb
