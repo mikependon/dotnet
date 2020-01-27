@@ -1,0 +1,11 @@
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\obj\Debug\netcoreapp2.1\ProperyHandlerProject.csprojAssemblyReference.cache
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\obj\Debug\netcoreapp2.1\ProperyHandlerProject.csproj.CoreCompileInputs.cache
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\obj\Debug\netcoreapp2.1\ProperyHandlerProject.AssemblyInfoInputs.cache
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\obj\Debug\netcoreapp2.1\ProperyHandlerProject.AssemblyInfo.cs
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\bin\Debug\netcoreapp2.1\ProperyHandlerProject.deps.json
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\bin\Debug\netcoreapp2.1\ProperyHandlerProject.runtimeconfig.json
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\bin\Debug\netcoreapp2.1\ProperyHandlerProject.runtimeconfig.dev.json
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\bin\Debug\netcoreapp2.1\ProperyHandlerProject.dll
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\bin\Debug\netcoreapp2.1\ProperyHandlerProject.pdb
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\obj\Debug\netcoreapp2.1\ProperyHandlerProject.dll
+C:\Users\MIPEN\source\repos\ProperyHandlerProject\obj\Debug\netcoreapp2.1\ProperyHandlerProject.pdb
